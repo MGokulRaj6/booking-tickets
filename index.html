@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPL 2025 Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>IPL 2025 Ticket Booking</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Matches</a>
+            <a href="#">My Tickets</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="match-list">
+            <h2>Upcoming Matches</h2>
+            <div class="matches">
+                <!-- Matches will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="booking-form" style="display: none;">
+            <h2>Book Ticket</h2>
+            <form id="ticketForm">
+                <label>Match: <input type="text" id="matchName" readonly></label><br><br>
+                <label>Seats: 
+                    <select id="seatType">
+                        <option value="Standard">Standard - ₹500</option>
+                        <option value="VIP">VIP - ₹1500</option>
+                        <option value="Platinum">Platinum - ₹3000</option>
+                    </select>
+                </label><br><br>
+                <label>Quantity: <input type="number" id="quantity" value="1" min="1"></label><br><br>
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </section>
+
+        <section id="confirmation" style="display: none;">
+            <h2>Booking Successful! 🎉</h2>
+            <p id="ticketDetails"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 IPL Ticket Booking. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

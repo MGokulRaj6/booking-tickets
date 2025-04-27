@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #0d47a1;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+.matches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.match-card {
+    border: 1px solid #ccc;
+    margin: 1em;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+}
+.match-card button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+.match-card button:hover {
+    background-color: #e64a19;
+}
+form {
+    margin: 2em;
+}
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1em;
+}
