@@ -1,1 +1,1 @@
-site link : https://mgokulraj6.github.io/booking-tickets/
+site link : https://github.io/booking-tickets/
